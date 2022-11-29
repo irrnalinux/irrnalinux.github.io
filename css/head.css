@@ -1,0 +1,48 @@
+@font-face {
+    font-family: Ubuntu;
+    src: url("/font/Ubuntu.woff2") format("woff");
+}
+html {
+    background-color: black;
+    background-image: url('/img/background.jpg');
+    background-repeat: repeat;
+    color: white;
+    font-family: 'Ubuntu';font-size: 16px;
+    text-align: center;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+    color: #3ce86a;
+}
+h2 {
+    color: green;
+}
+.topnav {
+    overflow: hidden;
+} 
+.topnav a {
+    float: right;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: #3ce86a;
+    color: white;
+}
+.topnav a.active {
+    background-color: green;
+    color: white;
+}
+.image-div{
+    float:right;
+    margin-right:10px;
+    max-width: 20%;
+    max-height: 20%;
+}

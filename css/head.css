@@ -16,10 +16,10 @@ img {
     margin-right: auto;
 }
 h1 {
-    color: #3ce86a;
+    color: #ed6f26;
 }
 h2 {
-    color: green;
+    color: #ed6f26;
 }
 .topnav {
     overflow: hidden;
@@ -33,11 +33,11 @@ h2 {
     font-size: 17px;
 }
 .topnav a:hover {
-    background-color: #3ce86a;
+    background-color: #ff6207;
     color: white;
 }
 .topnav a.active {
-    background-color: green;
+    background-color: #ed6f26;
     color: white;
 }
 .image-div{
